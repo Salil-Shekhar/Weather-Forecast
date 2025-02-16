@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+
+    background-image: url(https://wallpapers.com/images/hd/sunny-weather-with-cherry-blossom-fr2tn0f21evp0viw.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+
+.container {
+    width: 93vh;
+    height: 89vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    padding: 50px;
+    border-radius: 40px;
+    backdrop-filter: blur(40px);
+    filter: brightness(100%);
+    
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 60px;
+    border-radius: 40px;
+    padding: 30px;
+    font-size: 15px;
+}
+.search button {
+    border: none;
+    outline: none;
+    margin-left: 17px;
+    cursor: pointer;
+    width: 100px;
+    height: 54px;
+    border-radius: 40px;
+}
+.weather-icon {
+    width: 84%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-icon img {
+    width: 207px;
+    height: 184px;
+}
+.Temperature {
+    width: 86%;
+    height: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.Icons {
+    width: 22%;
+    height: 14%;
+    transform: translate(-25px, 35px);
+    font-size: 76px;
+    color: white;
+}
+.Icons .wind1 {
+    position: absolute;
+    transform: translate(359%, -1%);
+}
+.Humidity {
+    position: relative;
+    top: -31px;
+    left: 83px;
+    color: white;
+}
+.Wind-Speed {
+    position: relative;
+    top: -97px;
+    left: 415px;
+    color: white;
+}
